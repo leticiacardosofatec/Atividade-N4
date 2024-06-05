@@ -4,21 +4,20 @@ import '../../pages/css/index.css'
 export default function Home() {
     return (
         <>
-            <h1>Reorganização das Pastas</h1>
+            <h1>olá, você está no projeto de vite + react</h1>
             <p>
-            Reorganizamos o projeto para garantir que fique mais fácil realizar a manutenção das páginas e dos componentes do projeto.
+            Para esse projeto usamos a biblioteca react-router-dom que fornece componentes e utilitários para criar roteamento e navegação em uma aplicação.
             </p>
-            <h1>Renovação da Página Inicial</h1>
             <p>
-            Levamos toda a estrutura da página inicial para dentro de um arquivo que irá passar a ser o componente responsável por essa página.
+            Também utilizamos um "Provider" que foi usado para disponibilizar dados ou funcionalidades compartilhadas para os componentes filhos.
             </p>
-            <h1>Construção da Segunda Página</h1>
             <p>
-            A página Sobre vai trazer informações sobre o nosso projeto e seu código deve ficar dentro do arquivo.
+            A função createBrowserRouter foi utilizada para construir as rotas da aplicação.
             </p>
             
             <div><Link to="/sobre">Sobre</Link></div>
             <div><Link to="/form">Formulario</Link></div>
+            <div><Link to="/tarefas">Tarefas</Link></div>
         </>
     )
 }
