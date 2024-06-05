@@ -6,16 +6,17 @@ export default function Sobre() {
         <>
             <h1>Sobre</h1>
             <p>
-                Para esse projeto usamos a biblioteca react-router-dom que fornece componentes e utilitários para criar roteamento e navegação em uma aplicação.
+                Projeto apresentado por Letícia Cardoso.
             </p>
             <p>
-                Também utilizamos um "Provider" que foi usado para disponibilizar dados ou funcionalidades compartilhadas para os componentes filhos. 
+                Aplicação em sala de aula no curso de redes de computadores.
             </p>
             <p>
-            A função createBrowserRouter foi utilizada para construir as rotas da aplicação.
+                Desenvolvido em Fatec Indaiatuba.
             </p>
             <div><Link to="/">Voltar para Home</Link></div>
             <div><Link to="/form">Formulario</Link></div>
+            <div><Link to="/tarefas">Tarefas</Link></div>
         </>
     )
 }
